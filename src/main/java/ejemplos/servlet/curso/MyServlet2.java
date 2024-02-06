@@ -9,19 +9,25 @@ import java.io.IOException;
 import java.io.PrintWriter;
 
 @WebServlet(urlPatterns = "/myServlet2")
-public class MyServlet2 extends HttpServlet {
 
-	protected void doGet(HttpServletRequest request,
-			HttpServletResponse response) throws ServletException, IOException {
+	public class MyServlet2 extends HttpServlet {
+		protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+			doGet(request, response);
+		}
 
-		response.setContentType("text/html");
-		PrintWriter out = response.getWriter();
+		protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+			response.setContentType("text/html");
+			PrintWriter out = response.getWriter();
 
-		// send HTML page to client
-		out.println("<html>");
-		out.println("<head><title>Ejemplo HTML desde Servlet</title></head>");
-		out.println("<body>");
-		out.println("<h1>Bienvenido!!</h1>");
+			String nombre = request.getParameter("nombre");
+
+			out.println("<html>");
+			out.println("<head>");
+			out.println("<title>Bienvenida</title>");
+			out.println("<link rel=\"stylesheet\" type=\"text/css\" href=\"/styles2.css\">");
+			out.println("</head>");
+			out.println("<body>");
+			out.println("<h1>Bienvenido/a " + nombre + "!</h1>");
+			out.println("</body></html>");
+		}
 	}
-
-}

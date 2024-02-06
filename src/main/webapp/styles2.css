@@ -1,0 +1,9 @@
+body {
+  background: linear-gradient(#141e30, #243b55);
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: #fff;
+  text-align: center;
+}

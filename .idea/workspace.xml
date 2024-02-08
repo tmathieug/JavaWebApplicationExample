@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="82738dcb-49be-48ad-98ab-21f6863e32dc" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+    <list default="true" id="82738dcb-49be-48ad-98ab-21f6863e32dc" name="Changes" comment="Actividad 2. Servlets y JSP">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/form.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/welcome.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ejemplos/servlet/curso/MyServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ejemplos/servlet/curso/MyServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ejemplos/servlet/curso/MyServlet2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ejemplos/servlet/curso/MyServlet2.java" afterDir="false" />
     </list>
@@ -35,7 +38,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/Usuario/Desktop/IFCT034PO DESARROLLO DE APLICACIONES CON JAVA/JavaWebApplicationExample2"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -47,6 +51,19 @@
       <option name="presentableId" value="Default" />
       <updated>1707211958049</updated>
     </task>
+    <task id="LOCAL-00001" summary="Actividad 1 servlets">
+      <created>1707245103896</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1707245103896</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Actividad 1 servlets" />
+    <MESSAGE value="Actividad 2. Servlets y JSP" />
+    <option name="LAST_COMMIT_MESSAGE" value="Actividad 2. Servlets y JSP" />
   </component>
 </project>
